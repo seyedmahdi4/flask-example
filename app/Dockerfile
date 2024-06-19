@@ -1,4 +1,4 @@
-FROM harbor.kubaar.ir/proxy/library/python:3.9-slim-bullseye
+FROM python:3.9-slim-bullseye
 
 # set environment variables.
 ENV PYTHONDONTWRITEBYTECODE 1
