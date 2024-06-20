@@ -19,7 +19,7 @@ def get_subgets():
     hash_ = ""
     for i in range(int(num)):
         hash_ += hashlib.sha256(f"{generate_random_string()}-{i}".encode()).hexdigest()
-        print(f"genrate hash with num: {num}")
+    print(f"genrate hash with num: {num}")
     return jsonify({'res': hash_}), 200
 
 
